@@ -1,0 +1,111 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li{
+	float: left;
+}
+
+.sair {
+	float: right;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a hover {
+	background: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+h2{
+	font-family: 'Slabo 27px', serif;
+}
+
+h3{
+	font-family: 'Mina', sans-serif;
+}
+
+input[type=text], input[type=password]{
+	width: 40%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button{
+	background-color: #0072c6;
+	color: white;
+	padding: 5px 15px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover{
+	opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+    text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+/*.btn-group .button {
+    background-color: #4CAF50;  /*Green
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+.btn-group .button:not(:last-child) {
+    border-right: none; /* Prevent double borders 
+}
+.btn-group .button:hover {
+    background-color: #3e8e41;
+}*/
+
+/*.button,
+.buttonSuppressed: active,
+.buttonSuppressed: focus,
+.buttonSuppressed: hover{
+	border: 1px solid #ced0d4;
+}
+.button{
+	border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    line-height: 18px;
+    padding: 2px 6px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    vertical-align: top;
+    white-space: nowrap;
+}*/
